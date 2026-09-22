@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Crawl data: the database and run outputs stay on your machine.
+# sample_articles.json (next to this file) is the only data file that gets committed.
+news_crawler/news.db
+news_crawler/news.db-*
+news_crawler/*.json
+*.csv
+*.log
+
+# Scrapy's page cache
+news_crawler/.scrapy/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
